@@ -9,11 +9,6 @@ class CALC
 	 	doco = cutoverdate.strftime("%j")
 	 	yeardiff = cutoverdate.year - date.year
 	 	daysleft = doco.to_i - doy.to_i
-	 	# case yeardiff
-	 	# when 0
-	 	# 	daysleft
-	 	# else
 	 	daysleft + (365*yeardiff)
-	 	# end
  	end
 end
